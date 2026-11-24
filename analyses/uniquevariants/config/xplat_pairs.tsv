@@ -1,0 +1,5 @@
+pair	a_set	a_platform	b_set	b_platform	kind	description
+PPRvsGATK_illumina_aviti	PPRvsGATK	illumina	PPRvsGATK	aviti	cross	PPR-only (vs GATK), Illumina (baseline) vs Aviti
+GATKvsPPR_illumina_aviti	GATKvsPPR	illumina	GATKvsPPR	aviti	cross	GATK-only (vs PPR), Illumina (baseline) vs Aviti
+PPRvsDV_illumina_aviti	PPRvsDV	illumina	PPRvsDV	aviti	cross	PPR-only (vs DV), Illumina (baseline) vs Aviti
+DVvsPPR_illumina_aviti	DVvsPPR	illumina	DVvsPPR	aviti	cross	DV-only (vs PPR), Illumina (baseline) vs Aviti

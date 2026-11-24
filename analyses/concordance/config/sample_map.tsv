@@ -1,0 +1,25 @@
+patient	illumina_gatk	illumina_ppr	illumina_dv	aviti_gatk	aviti_ppr	aviti_dv	exclude	note
+1	<sample>	<sample>	<sample>	<sample>	<sample>	<sample>	no	.
+2	<sample>	<sample>	<sample>	<sample>	<sample>	<sample>	no	.
+3	<sample>	<sample>	<sample>	<sample>	<sample>	<sample>	no	.
+4	<sample>	<sample>	<sample>	<sample>	<sample>	<sample>	no	.
+5	<sample>	<sample>	<sample>	<sample>	<sample>	<sample>	no	.
+6	<sample>	<sample>	<sample>	<sample>	<sample>	<sample>	no	.
+7	<sample>	<sample>	<sample>	<sample>	<sample>	<sample>	no	.
+8	<sample>	<sample>	<sample>	<sample>	<sample>	<sample>	no	.
+9	<sample>	<sample>	<sample>	<sample>	<sample>	<sample>	no	.
+10	<sample>	<sample>	<sample>	<sample>	<sample>	<sample>	no	.
+11	<sample>	<sample>	<sample>	<sample>	<sample>	<sample>	no	.
+12	<sample>	<sample>	<sample>	<sample>	<sample>	<sample>	no	.
+13	<sample>	<sample>	<sample>	<sample>	<sample>	<sample>	no	.
+14	<sample>	<sample>	<sample>	<sample>	<sample>	<sample>	no	.
+15	<sample>	<sample>	<sample>	<sample>	<sample>	<sample>	no	.
+16	<sample>	<sample>	<sample>	<sample>	<sample>	<sample>	no	.
+17	<sample>	<sample>	<sample>	<sample>	<sample>	<sample>	no	.
+18	<sample>	<sample>	<sample>	<sample>	<sample>	<sample>	no	.
+19	<sample>	<sample>	<sample>	<sample>	<sample>	<sample>	no	.
+20	<sample>	<sample>	<sample>	<sample>	<sample>	<sample>	no	.
+21	<sample>	<sample>	<sample>	<sample>	<sample>	<sample>	no	.
+22	<sample>	<sample>	<sample>	<sample>	<sample>	<sample>	no	.
+23	<sample>	<sample>	<sample>	<sample>	<sample>	<sample>	yes	excluded: very low Illumina yield
+24	<sample>	<sample>	<sample>	<sample>	<sample>	<sample>	no	.

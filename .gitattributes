@@ -1,0 +1,2 @@
+# Unix line endings for every text file, also when a clone is made on Windows
+* text=auto eol=lf

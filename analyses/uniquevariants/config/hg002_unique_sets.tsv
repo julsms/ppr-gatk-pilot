@@ -1,0 +1,11 @@
+uset	pipeline	platform	pairs	side	against	refcall_from	description
+PPRvsGATK_illumina	PPR	illumina	H_GATK_PPR_illumina	B	GATK	none	HG002: PPR alleles not found by GATK HC (illumina)
+GATKvsPPR_illumina	GATK	illumina	H_GATK_PPR_illumina	A	PPR	none	HG002: GATK HC alleles not found by PPR (illumina)
+PPRvsDV_illumina	PPR	illumina	H_DV_PPR_illumina	B	DV	none	HG002: PPR alleles not found by BWA-MEM + DeepVariant (illumina)
+DVvsPPR_illumina	DV	illumina	H_DV_PPR_illumina	A	PPR	none	HG002: BWA-MEM + DeepVariant alleles not found by PPR (illumina)
+PPRvsBOTH_illumina	PPR	illumina	H_GATK_PPR_illumina,H_DV_PPR_illumina	B	GATK+DV	none	HG002: PPR alleles unique against both (illumina)
+PPRvsGATK_aviti	PPR	aviti	H_GATK_PPR_aviti	B	GATK	none	HG002: PPR alleles not found by GATK HC (aviti)
+GATKvsPPR_aviti	GATK	aviti	H_GATK_PPR_aviti	A	PPR	none	HG002: GATK HC alleles not found by PPR (aviti)
+PPRvsDV_aviti	PPR	aviti	H_DV_PPR_aviti	B	DV	none	HG002: PPR alleles not found by BWA-MEM + DeepVariant (aviti)
+DVvsPPR_aviti	DV	aviti	H_DV_PPR_aviti	A	PPR	none	HG002: BWA-MEM + DeepVariant alleles not found by PPR (aviti)
+PPRvsBOTH_aviti	PPR	aviti	H_GATK_PPR_aviti,H_DV_PPR_aviti	B	GATK+DV	none	HG002: PPR alleles unique against both (aviti)

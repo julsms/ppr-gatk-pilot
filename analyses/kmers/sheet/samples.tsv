@@ -1,0 +1,6 @@
+platform	sample	kind	r1	r2
+illumina	1	cohort	reads/illumina/1_R1_val_1.fq.gz	reads/illumina/1_R2_val_2.fq.gz
+aviti	12	cohort	reads/aviti/21_R1_val_1.fq.gz	reads/aviti/21_R2_val_2.fq.gz
+aviti	21	cohort	reads/aviti/12_R1_val_1.fq.gz	reads/aviti/12_R2_val_2.fq.gz
+illumina	HG002	hg002	reads/illumina/SRR14724532_1_val_1.fq.gz	reads/illumina/SRR14724532_2_val_2.fq.gz
+aviti	HG002	hg002	reads/aviti/SRR33551004_1_val_1.fq.gz	reads/aviti/SRR33551004_2_val_2.fq.gz

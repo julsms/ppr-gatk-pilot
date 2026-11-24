@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article below."
+type: software
+title: "ppr-gatk-pilot: code of the comparison of the GATK, BWA-MEM + DeepVariant and PPR pipelines on Illumina and Element Aviti"
+version: "2.3.0"
+license: MIT
+authors:
+  - given-names: "Iulia Maria"
+    family-names: "Sabau"
+  - given-names: "Adrian"
+    family-names: "Fako"
+  - given-names: "Mircea"
+    family-names: "Cretu Stancu"
+preferred-citation:
+  type: article
+  status: submitted
+  journal: "Scientific Reports"
+  title: "A stepwise pipeline comparison shows improved variant calling with personalized pangenome references across Illumina and Aviti platforms"
+  authors:
+    - given-names: "Iulia Maria"
+      family-names: "Sabau"
+    - given-names: "Adrian"
+      family-names: "Fako"
+    - given-names: "Denisa-Andrada"
+      family-names: "Dragomir"
+    - given-names: "Adrian Nicolae"
+      family-names: "Buzatu"
+    - given-names: "Ana-Maria"
+      family-names: "Enciu"
+    - given-names: "Alina"
+      family-names: "Erbescu"
+    - given-names: "Adela"
+      family-names: "Chirita Emandi"
+    - given-names: "Simona Olimpia"
+      family-names: "Dima"
+    - given-names: "Viorel"
+      family-names: "Jinga"
+    - given-names: "Relu"
+      family-names: "Cocos"
+    - given-names: "Octavian"
+      family-names: "Bucur"
+    - given-names: "Mircea"
+      family-names: "Cretu Stancu"

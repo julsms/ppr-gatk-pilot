@@ -1,0 +1,11 @@
+uset	pipeline	platform	pairs	side	against	refcall_from	description
+PPRvsGATK_illumina	PPR	illumina	GATK_PPR_illumina	B	GATK	none	PPR alleles not found by GATK HC (illumina); GATK status in gatk_status.sh
+GATKvsPPR_illumina	GATK	illumina	GATK_PPR_illumina	A	PPR	PPR	GATK HC alleles not found by PPR (illumina); RefCall candidate in the PPR output or none
+PPRvsDV_illumina	PPR	illumina	DV_PPR_illumina	B	DV	DV	PPR alleles not found by BWA-MEM + DeepVariant (illumina); RefCall candidate in the DV output or none
+DVvsPPR_illumina	DV	illumina	DV_PPR_illumina	A	PPR	PPR	BWA-MEM + DeepVariant alleles not found by PPR (illumina); RefCall candidate in the PPR output or none
+PPRvsBOTH_illumina	PPR	illumina	GATK_PPR_illumina,DV_PPR_illumina	B	GATK+DV	none	PPR alleles unique against GATK HC and against BWA-MEM + DeepVariant (illumina): the intersection on PPR keys
+PPRvsGATK_aviti	PPR	aviti	GATK_PPR_aviti	B	GATK	none	PPR alleles not found by GATK HC (aviti); GATK status in gatk_status.sh
+GATKvsPPR_aviti	GATK	aviti	GATK_PPR_aviti	A	PPR	PPR	GATK HC alleles not found by PPR (aviti); RefCall candidate in the PPR output or none
+PPRvsDV_aviti	PPR	aviti	DV_PPR_aviti	B	DV	DV	PPR alleles not found by BWA-MEM + DeepVariant (aviti); RefCall candidate in the DV output or none
+DVvsPPR_aviti	DV	aviti	DV_PPR_aviti	A	PPR	PPR	BWA-MEM + DeepVariant alleles not found by PPR (aviti); RefCall candidate in the PPR output or none
+PPRvsBOTH_aviti	PPR	aviti	GATK_PPR_aviti,DV_PPR_aviti	B	GATK+DV	none	PPR alleles unique against GATK HC and against BWA-MEM + DeepVariant (aviti): the intersection on PPR keys

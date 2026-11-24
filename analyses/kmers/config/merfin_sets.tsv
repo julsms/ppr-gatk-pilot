@@ -1,0 +1,9 @@
+set_id	kind	source	name	hg002_name	pipeline	context	run	description
+GATK_ALL	all	prep	GATK	GATK	GATK	.	yes	GATK HaplotypeCaller, VQSR SNP 99.9 / INDEL 99.9; prepared call set of the concordance
+PPR_ALL	all	prep	PPR	PPRH002	PPR	.	yes	PPR (vg giraffe + DeepVariant); prepared call set of the concordance
+DV_ALL	all	prep	DV	DVH002	DV	.	yes	BWA-MEM + DeepVariant 1.9.0; prepared call set of the concordance
+GATKvsPPR	unique	unique	GATKvsPPR	GATKvsPPR	GATK	GATK_ALL	yes	GATK alleles not found by PPR (uniquevariants)
+PPRvsGATK	unique	unique	PPRvsGATK	PPRvsGATK	PPR	PPR_ALL	yes	PPR alleles not found by GATK (uniquevariants)
+PPRvsDV	unique	unique	PPRvsDV	PPRvsDV	PPR	PPR_ALL	yes	PPR alleles not found by BWA-MEM + DV (uniquevariants)
+DVvsPPR	unique	unique	DVvsPPR	DVvsPPR	DV	DV_ALL	yes	BWA-MEM + DV alleles not found by PPR (uniquevariants)
+PPRvsBOTH	unique	unique	PPRvsBOTH	PPRvsBOTH	PPR	PPR_ALL	yes	PPR alleles unique against GATK and against DV (uniquevariants)

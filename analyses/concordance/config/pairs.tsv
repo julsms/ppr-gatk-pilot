@@ -1,0 +1,10 @@
+pair	a_set	a_platform	b_set	b_platform	kind	description
+GATK_PPR_illumina	GATK	illumina	PPR	illumina	within	PPR vs GATK (baseline GATK), illumina
+GATK_DV_illumina	GATK	illumina	DV	illumina	within	BWA-MEM + DV vs GATK (same BAMs, caller and filtering effect), illumina
+DV_PPR_illumina	DV	illumina	PPR	illumina	within	PPR vs BWA-MEM + DV (same caller, mapping and graph effect), illumina
+GATK_PPR_aviti	GATK	aviti	PPR	aviti	within	PPR vs GATK (baseline GATK), aviti
+GATK_DV_aviti	GATK	aviti	DV	aviti	within	BWA-MEM + DV vs GATK (same BAMs, caller and filtering effect), aviti
+DV_PPR_aviti	DV	aviti	PPR	aviti	within	PPR vs BWA-MEM + DV (same caller, mapping and graph effect), aviti
+PPR_illumina_aviti	PPR	illumina	PPR	aviti	cross	PPR, Illumina (baseline) vs Aviti
+GATK_illumina_aviti	GATK	illumina	GATK	aviti	cross	GATK, Illumina (baseline) vs Aviti
+DV_illumina_aviti	DV	illumina	DV	aviti	cross	DV, Illumina (baseline) vs Aviti

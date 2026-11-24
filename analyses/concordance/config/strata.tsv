@@ -1,0 +1,13 @@
+stratum	label	source	md5
+BB	GIAB HG002 v5.0q small-variant benchmark regions	../benchmark/strata/strata_revision/beds/with_chr/BB.bed	3366858af85875cbb3c579412ffa4c56
+15GC85	very extreme GC (<15% or >85%)	../benchmark/strata/strata_revision/beds/with_chr/15GC85.bed	47adf858373ac8af564ebb8f75a98d73
+25GC65	extreme GC (<25% or >65%)	../benchmark/strata/strata_revision/beds/with_chr/25GC65.bed	e8d3b15bde4220a7ac4b73b505e34d2c
+LM	low mappability	../benchmark/strata/strata_revision/beds/with_chr/LM.bed	84bdca51c4df1171259f6866a335d04f
+TRHP	tandem repeats and homopolymers	../benchmark/strata/strata_revision/beds/with_chr/TRHP.bed	0494eaf7b57ee344d2484dd68baaec95
+OD	other difficult regions	../benchmark/strata/strata_revision/beds/with_chr/OD.bed	46693fcfa8bc305f7c4dd7bfc9539a42
+AD	all difficult regions	../benchmark/strata/strata_revision/beds/with_chr/AD.bed	00a50ab9bfcabb518c221d4544b54f1e
+REFSEQ	RefSeq coding sequences	../benchmark/strata/strata_revision/beds/with_chr/REFSEQ.bed	1e5a4252e2e7fe5f291aa1569fd238e9
+ACMG	ACMG genes (84, +/- 10 kb)	../benchmark/strata/strata_revision/beds/with_chr/ACMG.bed	77fa265398482d99663e5407410e977e
+OMIM	OMIM v2 disease genes (gene bodies)	../benchmark/strata/strata_revision/beds/with_chr/OMIM.bed	6f59018de020eef85367f27019548e2a
+CMRG	GIAB CMRG v1.00 genes (273)	../benchmark/strata/strata_revision/beds/with_chr/CMRG.bed	3f308b25194a3ee60acd9fc2be263d2e
+XPAR	chrX pseudoautosomal regions	config/xpar.bed	b8e5a1ab4167a239a5d96f2da2004ef9

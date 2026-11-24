@@ -1,0 +1,7 @@
+pair	a_set	a_platform	b_set	b_platform	kind	description
+H_GATK_PPR_illumina	GATK	illumina	PPRH002	illumina	within	HG002: PPR vs GATK HC (baseline GATK), illumina
+H_DV_PPR_illumina	DVH002	illumina	PPRH002	illumina	within	HG002: PPR vs BWA-MEM + DV (baseline DV), illumina
+H_GATK_DV_illumina	GATK	illumina	DVH002	illumina	within	HG002: BWA-MEM + DV vs GATK HC (baseline GATK), illumina
+H_GATK_PPR_aviti	GATK	aviti	PPRH002	aviti	within	HG002: PPR vs GATK HC (baseline GATK), aviti
+H_DV_PPR_aviti	DVH002	aviti	PPRH002	aviti	within	HG002: PPR vs BWA-MEM + DV (baseline DV), aviti
+H_GATK_DV_aviti	GATK	aviti	DVH002	aviti	within	HG002: BWA-MEM + DV vs GATK HC (baseline GATK), aviti
